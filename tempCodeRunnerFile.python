@@ -1,0 +1,78 @@
+import streamlit as st
+import pandas as pd
+
+# Import your own project modules
+from health_risk_prediction import predict_health_risk
+from health_advisor import provide_health_advice
+from device_check import check_device_health
+from generator_report import generate_pdf_report
+from integrated_alerts import generate_alerts
+
+# Streamlit page config and heading
+st.set_page_config(page_title="AI Health Monitoring Dashboard", layout="wide")
+st.title("AI-Powered Health Monitoring System")
+st.markdown("""
+This dashboard integrates health risk prediction, emotion detection, wearable status check, 
+and generates personalized health advice with downloadable health reports.
+""")
+
+# Load data function
+@st.cache_data
+def load_data():
+    try:
+        return pd.read_csv("combined_health_data.csv")
+    except FileNotFoundError:
+        st.error("combined_health_data.csv not found.")
+        return pd.DataFrame()
+
+# Load the data
+health_data = load_data()
+
+# Display data preview
+if not health_data.empty:
+    st.subheader("Loaded Health Data")
+    st.dataframe(health_data.head())
+
+# Predict Health Risk
+if st.button("Predict Health Risk"):
+    predictions = predict_health_risk(health_data)
+    health_data['Health Risk Prediction'] = predictions
+    st.success("Health risk prediction complete.")
+    st.dataframe(health_data)
+
+# Provide Health Advice
+if st.button("Get Personalized Health Advice"):
+    advice_list = []
+    for _, row in health_data.iterrows():
+        advice = provide_health_advice(
+            heart_rate=row['HeartRate'],
+            steps=row['Steps'],
+            sleep_quality=row['SleepQuality']
+        )
+        advice_list.append(advice)
+    health_data['Personalized Advice'] = advice_list
+    st.success("Health advice generated.")
+    st.dataframe(health_data)
+
+# Device Status Check
+if st.button("Check Wearable Device Status"):
+    status = check_device_health()
+    if status:
+        st.success("Wearable device is working fine.")
+    else:
+        st.error("Wearable device error detected!")
+
+# Generate Alerts
+if st.button("Generate Alerts"):
+    alerts = generate_alerts(health_data)
+    health_data['Alerts'] = alerts
+    st.warning("Alerts generated.")
+    st.dataframe(health_data)
+
+# Generate PDF Report
+if st.button("Generate PDF Report"):
+    if not health_data.empty:
+        generate_pdf_report(health_data)
+        st.success("Health Report PDF generated as 'Health_Report.pdf'")
+    else:
+        st.error("No data available to generate report.")

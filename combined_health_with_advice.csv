@@ -1,0 +1,2 @@
+Unnamed: 0,Timestamp,Heart Rate,Steps,Sleep Quality,Text,Text Emotion,File Path,Voice Emotion,Health Advice
+0,2025-04-14 17:05:55.609202,81,143,Best,I'm feeling really stressed about this project,anger,sample_voice.wav,Unknown,Low physical activity. Try to move more. | Detected negative emotion (anger). Talk to someone or try calming activities.

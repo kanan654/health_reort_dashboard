@@ -1,0 +1,17 @@
+Emotion,Emotion_Encoded,Anomaly,Anomaly_Label
+Happy,2,1,Normal
+Happy,2,1,Normal
+Neutral,3,-1,Anomaly
+Sad,4,1,Normal
+Angry,0,1,Normal
+Happy,2,1,Normal
+Sad,4,1,Normal
+Happy,2,1,Normal
+Happy,2,1,Normal
+Happy,2,1,Normal
+Happy,2,1,Normal
+Sad,4,1,Normal
+Happy,2,1,Normal
+Angry,0,1,Normal
+Fear,1,-1,Anomaly
+Happy,2,1,Normal

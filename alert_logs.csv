@@ -1,0 +1,433 @@
+Timestamp,Alert
+2025-04-19 17:03:46,Steps is abnormal: 2500
+2025-04-19 17:03:46,"SVM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-19 17:03:46,"LOF Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-19 17:03:46,"GMM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-19 17:03:46,Text Emotion Alert: I'm tired and dizzy.
+2025-04-19 17:03:46,Voice Emotion Alert: Detected negative emotion from voice
+2025-04-21 22:58:55,Steps is abnormal: 2500
+2025-04-21 22:58:55,"SVM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-21 22:58:55,"LOF Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-21 22:58:55,"GMM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-21 22:58:55,Text Emotion Alert: I'm tired and dizzy.
+2025-04-21 22:58:55,Voice Emotion Alert: Detected negative emotion from voice
+2025-04-21 23:00:28,Steps is abnormal: 2500
+2025-04-21 23:00:28,"SVM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-21 23:00:28,"LOF Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-21 23:00:28,"GMM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-21 23:00:28,Text Emotion Alert: I'm tired and dizzy.
+2025-04-21 23:00:28,Voice Emotion Alert: Detected negative emotion from voice
+2025-04-21 23:02:59,Steps is abnormal: 2500
+2025-04-21 23:02:59,"SVM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-21 23:02:59,"LOF Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-21 23:02:59,"GMM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-21 23:02:59,Text Emotion Alert: I'm tired and dizzy.
+2025-04-21 23:02:59,Voice Emotion Alert: Detected negative emotion from voice
+2025-04-21 23:06:26,Steps is abnormal: 2500
+2025-04-21 23:06:26,"SVM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-21 23:06:26,"LOF Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-21 23:06:26,"GMM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-21 23:06:26,Text Emotion Alert: I'm tired and dizzy.
+2025-04-21 23:06:26,Voice Emotion Alert: Detected negative emotion from voice
+2025-04-21 23:09:45,Steps is abnormal: 2500
+2025-04-21 23:09:45,"SVM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-21 23:09:45,"LOF Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-21 23:09:45,"GMM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-21 23:09:45,Text Emotion Alert: I'm tired and dizzy.
+2025-04-21 23:09:45,Voice Emotion Alert: Detected negative emotion from voice
+2025-04-21 23:32:29,Steps is abnormal: 2500
+2025-04-21 23:32:29,"SVM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-21 23:32:29,"LOF Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-21 23:32:29,"GMM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-21 23:32:29,Text Emotion Alert: I'm tired and dizzy.
+2025-04-21 23:32:29,Voice Emotion Alert: Detected negative emotion from voice
+2025-04-23 23:09:01,Steps is abnormal: 2500
+2025-04-23 23:09:01,"SVM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-23 23:09:01,"LOF Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-23 23:09:01,"GMM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-23 23:09:01,Text Emotion Alert: I'm tired and dizzy.
+2025-04-23 23:09:01,Voice Emotion Alert: Detected negative emotion from voice
+2025-04-23 23:20:12,Steps is abnormal: 2500
+2025-04-23 23:20:12,"SVM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-23 23:20:12,"LOF Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-23 23:20:12,"GMM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-23 23:20:12,Text Emotion Alert: I'm tired and dizzy.
+2025-04-23 23:20:12,Voice Emotion Alert: Detected negative emotion from voice
+2025-04-23 23:22:34,Steps is abnormal: 2500
+2025-04-23 23:22:34,"SVM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-23 23:22:34,"LOF Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-23 23:22:34,"GMM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-23 23:22:34,Text Emotion Alert: I'm tired and dizzy.
+2025-04-23 23:22:34,Voice Emotion Alert: Detected negative emotion from voice
+2025-04-23 23:33:00,Steps is abnormal: 2500
+2025-04-23 23:33:00,"SVM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-23 23:33:00,"LOF Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-23 23:33:00,"GMM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-23 23:33:00,Text Emotion Alert: I'm tired and dizzy.
+2025-04-23 23:33:00,Voice Emotion Alert: Detected negative emotion from voice
+2025-04-23 23:34:13,Steps is abnormal: 2500
+2025-04-23 23:34:13,"SVM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-23 23:34:13,"LOF Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-23 23:34:13,"GMM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-23 23:34:13,Text Emotion Alert: I'm tired and dizzy.
+2025-04-23 23:34:13,Voice Emotion Alert: Detected negative emotion from voice
+2025-04-23 23:35:14,Steps is abnormal: 2500
+2025-04-23 23:35:14,"SVM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-23 23:35:14,"LOF Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-23 23:35:14,"GMM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-23 23:35:14,Text Emotion Alert: I'm tired and dizzy.
+2025-04-23 23:35:14,Voice Emotion Alert: Detected negative emotion from voice
+2025-04-23 23:36:28,Steps is abnormal: 2500
+2025-04-23 23:36:28,"SVM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-23 23:36:28,"LOF Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-23 23:36:28,"GMM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-23 23:36:28,Text Emotion Alert: I'm tired and dizzy.
+2025-04-23 23:36:28,Voice Emotion Alert: Detected negative emotion from voice
+2025-04-23 23:41:03,Steps is abnormal: 2500
+2025-04-23 23:41:03,"SVM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-23 23:41:03,"LOF Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-23 23:41:03,"GMM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-23 23:41:03,Text Emotion Alert: I'm tired and dizzy.
+2025-04-23 23:41:03,Voice Emotion Alert: Detected negative emotion from voice
+2025-04-25 16:41:55,Steps is abnormal: 2500
+2025-04-25 16:41:55,"SVM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-25 16:41:55,"LOF Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-25 16:41:55,"GMM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-25 16:41:55,Text Emotion Alert: I'm tired and dizzy.
+2025-04-25 16:41:55,Voice Emotion Alert: Detected negative emotion from voice
+2025-04-25 16:44:50,Steps is abnormal: 2500
+2025-04-25 16:44:50,"SVM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-25 16:44:50,"LOF Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-25 16:44:50,"GMM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-25 16:44:50,Text Emotion Alert: I'm tired and dizzy.
+2025-04-25 16:44:50,Voice Emotion Alert: Detected negative emotion from voice
+2025-04-25 16:46:42,Steps is abnormal: 2500
+2025-04-25 16:46:42,"SVM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-25 16:46:42,"LOF Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-25 16:46:42,"GMM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-25 16:46:42,Text Emotion Alert: I'm tired and dizzy.
+2025-04-25 16:46:42,Voice Emotion Alert: Detected negative emotion from voice
+2025-04-28 13:01:46,Steps is abnormal: 2500
+2025-04-28 13:01:46,"SVM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 13:01:46,"LOF Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 13:01:46,"GMM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 13:01:46,Text Emotion Alert: I'm tired and dizzy.
+2025-04-28 13:01:46,Voice Emotion Alert: Detected negative emotion from voice
+2025-04-28 13:12:17,Steps is abnormal: 2500
+2025-04-28 13:12:17,"SVM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 13:12:17,"LOF Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 13:12:17,"GMM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 13:12:17,Text Emotion Alert: I'm tired and dizzy.
+2025-04-28 13:12:17,Voice Emotion Alert: Detected negative emotion from voice
+2025-04-28 13:15:24,Steps is abnormal: 2500
+2025-04-28 13:15:24,"SVM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 13:15:24,"LOF Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 13:15:24,"GMM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 13:15:24,Text Emotion Alert: I'm tired and dizzy.
+2025-04-28 13:15:24,Voice Emotion Alert: Detected negative emotion from voice
+2025-04-28 13:17:43,Steps is abnormal: 2500
+2025-04-28 13:17:43,"SVM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 13:17:43,"LOF Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 13:17:43,"GMM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 13:17:43,Text Emotion Alert: I'm tired and dizzy.
+2025-04-28 13:17:43,Voice Emotion Alert: Detected negative emotion from voice
+2025-04-28 13:18:35,Steps is abnormal: 2500
+2025-04-28 13:18:35,"SVM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 13:18:35,"LOF Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 13:18:35,"GMM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 13:18:35,Text Emotion Alert: I'm tired and dizzy.
+2025-04-28 13:18:35,Voice Emotion Alert: Detected negative emotion from voice
+2025-04-28 13:21:44,Steps is abnormal: 2500
+2025-04-28 13:21:44,"SVM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 13:21:44,"LOF Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 13:21:44,"GMM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 13:21:44,Text Emotion Alert: I'm tired and dizzy.
+2025-04-28 13:21:44,Voice Emotion Alert: Detected negative emotion from voice
+2025-04-28 13:33:33,Steps is abnormal: 2500
+2025-04-28 13:33:33,"SVM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 13:33:33,"LOF Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 13:33:33,"GMM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 13:33:33,Text Emotion Alert: I'm tired and dizzy.
+2025-04-28 13:33:33,Voice Emotion Alert: Detected negative emotion from voice
+2025-04-28 13:38:30,Steps is abnormal: 2500
+2025-04-28 13:38:30,"SVM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 13:38:30,"LOF Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 13:38:30,"GMM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 13:38:30,Text Emotion Alert: I'm tired and dizzy.
+2025-04-28 13:38:30,Voice Emotion Alert: Detected negative emotion from voice
+2025-04-28 13:40:46,Steps is abnormal: 2500
+2025-04-28 13:40:46,"SVM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 13:40:46,"LOF Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 13:40:46,"GMM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 13:40:46,Text Emotion Alert: I'm tired and dizzy.
+2025-04-28 13:40:46,Voice Emotion Alert: Detected negative emotion from voice
+2025-04-28 13:46:15,Steps is abnormal: 2500
+2025-04-28 13:46:15,"SVM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 13:46:15,"LOF Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 13:46:15,"GMM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 13:46:15,Text Emotion Alert: I'm tired and dizzy.
+2025-04-28 13:46:15,Voice Emotion Alert: Detected negative emotion from voice
+2025-04-28 13:48:46,Steps is abnormal: 2500
+2025-04-28 13:48:46,"SVM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 13:48:46,"LOF Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 13:48:46,"GMM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 13:48:46,Text Emotion Alert: I'm tired and dizzy.
+2025-04-28 13:48:46,Voice Emotion Alert: Detected negative emotion from voice
+2025-04-28 13:58:16,Steps is abnormal: 2500
+2025-04-28 13:58:16,"SVM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 13:58:16,"LOF Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 13:58:16,"GMM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 13:58:16,Text Emotion Alert: I'm tired and dizzy.
+2025-04-28 13:58:16,Voice Emotion Alert: Detected negative emotion from voice
+2025-04-28 14:00:23,Steps is abnormal: 2500
+2025-04-28 14:00:23,"SVM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 14:00:23,"LOF Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 14:00:23,"GMM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 14:00:23,Text Emotion Alert: I'm tired and dizzy.
+2025-04-28 14:00:23,Voice Emotion Alert: Detected negative emotion from voice
+2025-04-28 14:06:06,Steps is abnormal: 2500
+2025-04-28 14:06:06,"SVM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 14:06:06,"LOF Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 14:06:06,"GMM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 14:06:06,Text Emotion Alert: I'm tired and dizzy.
+2025-04-28 14:06:06,Voice Emotion Alert: Detected negative emotion from voice
+2025-04-28 14:27:29,Steps is abnormal: 2500
+2025-04-28 14:27:29,"SVM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 14:27:29,"LOF Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 14:27:29,"GMM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 14:27:29,Text Emotion Alert: I'm tired and dizzy.
+2025-04-28 14:27:29,Voice Emotion Alert: Detected negative emotion from voice
+2025-04-28 14:28:24,Steps is abnormal: 2500
+2025-04-28 14:28:24,"SVM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 14:28:24,"LOF Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 14:28:24,"GMM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 14:28:24,Text Emotion Alert: I'm tired and dizzy.
+2025-04-28 14:28:24,Voice Emotion Alert: Detected negative emotion from voice
+2025-04-28 14:30:05,Steps is abnormal: 2500
+2025-04-28 14:30:05,"SVM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 14:30:05,"LOF Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 14:30:05,"GMM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 14:30:05,Text Emotion Alert: I'm tired and dizzy.
+2025-04-28 14:30:05,Voice Emotion Alert: Detected negative emotion from voice
+2025-04-28 14:30:52,Steps is abnormal: 2500
+2025-04-28 14:30:52,"SVM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 14:30:52,"LOF Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 14:30:52,"GMM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 14:30:52,Text Emotion Alert: I'm tired and dizzy.
+2025-04-28 14:30:52,Voice Emotion Alert: Detected negative emotion from voice
+2025-04-28 14:42:38,Steps is abnormal: 2500
+2025-04-28 14:42:38,"SVM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 14:42:38,"LOF Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 14:42:38,"GMM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 14:42:38,Text Emotion Alert: I'm tired and dizzy.
+2025-04-28 14:42:38,Voice Emotion Alert: Detected negative emotion from voice
+2025-04-28 14:47:44,Steps is abnormal: 2500
+2025-04-28 14:47:44,"SVM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 14:47:44,"LOF Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 14:47:44,"GMM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 14:47:44,Text Emotion Alert: I'm tired and dizzy.
+2025-04-28 14:47:44,Voice Emotion Alert: Detected negative emotion from voice
+2025-04-28 14:50:26,Steps is abnormal: 2500
+2025-04-28 14:50:26,"SVM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 14:50:26,"LOF Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 14:50:26,"GMM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 14:50:26,Text Emotion Alert: I'm tired and dizzy.
+2025-04-28 14:50:26,Voice Emotion Alert: Detected negative emotion from voice
+2025-04-28 14:56:46,Steps is abnormal: 2500
+2025-04-28 14:56:46,"SVM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 14:56:46,"LOF Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 14:56:46,"GMM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 14:56:46,Text Emotion Alert: I'm tired and dizzy.
+2025-04-28 14:56:46,Voice Emotion Alert: Detected negative emotion from voice
+2025-04-28 15:02:06,Steps is abnormal: 2500
+2025-04-28 15:02:06,"SVM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 15:02:06,"LOF Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 15:02:06,"GMM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 15:02:06,Text Emotion Alert: I'm tired and dizzy.
+2025-04-28 15:02:06,Voice Emotion Alert: Detected negative emotion from voice
+2025-04-28 15:08:06,Steps is abnormal: 2500
+2025-04-28 15:08:06,"SVM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 15:08:06,"LOF Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 15:08:06,"GMM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 15:08:06,Text Emotion Alert: I'm tired and dizzy.
+2025-04-28 15:08:06,Voice Emotion Alert: Detected negative emotion from voice
+2025-04-28 15:08:58,Steps is abnormal: 2500
+2025-04-28 15:08:58,"SVM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 15:08:58,"LOF Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 15:08:58,"GMM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 15:08:58,Text Emotion Alert: I'm tired and dizzy.
+2025-04-28 15:08:58,Voice Emotion Alert: Detected negative emotion from voice
+2025-04-28 15:09:29,Steps is abnormal: 2500
+2025-04-28 15:09:29,"SVM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 15:09:29,"LOF Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 15:09:29,"GMM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 15:09:29,Text Emotion Alert: I'm tired and dizzy.
+2025-04-28 15:09:29,Voice Emotion Alert: Detected negative emotion from voice
+2025-04-28 15:09:51,Steps is abnormal: 2500
+2025-04-28 15:09:51,"SVM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 15:09:51,"LOF Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 15:09:51,"GMM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 15:09:51,Text Emotion Alert: I'm tired and dizzy.
+2025-04-28 15:09:51,Voice Emotion Alert: Detected negative emotion from voice
+2025-04-28 15:10:39,Steps is abnormal: 2500
+2025-04-28 15:10:39,"SVM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 15:10:39,"LOF Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 15:10:39,"GMM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 15:10:39,Text Emotion Alert: I'm tired and dizzy.
+2025-04-28 15:10:39,Voice Emotion Alert: Detected negative emotion from voice
+2025-04-28 15:46:48,Steps is abnormal: 2500
+2025-04-28 15:46:48,"SVM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 15:46:48,"LOF Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 15:46:48,"GMM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 15:46:48,Text Emotion Alert: I'm tired and dizzy.
+2025-04-28 15:46:48,Voice Emotion Alert: Detected negative emotion from voice
+2025-04-28 16:17:47,Steps is abnormal: 2500
+2025-04-28 16:17:47,"SVM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 16:17:47,"LOF Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 16:17:47,"GMM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 16:17:47,Text Emotion Alert: I'm tired and dizzy.
+2025-04-28 16:17:47,Voice Emotion Alert: Detected negative emotion from voice
+2025-04-28 16:22:56,Steps is abnormal: 2500
+2025-04-28 16:22:56,"SVM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 16:22:56,"LOF Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 16:22:56,"GMM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 16:22:56,Text Emotion Alert: I'm tired and dizzy.
+2025-04-28 16:22:56,Voice Emotion Alert: Detected negative emotion from voice
+2025-04-28 16:32:58,Steps is abnormal: 2500
+2025-04-28 16:32:58,"SVM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 16:32:58,"LOF Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 16:32:58,"GMM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 16:32:58,Text Emotion Alert: I'm tired and dizzy.
+2025-04-28 16:32:58,Voice Emotion Alert: Detected negative emotion from voice
+2025-04-28 16:35:48,Steps is abnormal: 2500
+2025-04-28 16:35:48,"SVM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 16:35:48,"LOF Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 16:35:48,"GMM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 16:35:48,Text Emotion Alert: I'm tired and dizzy.
+2025-04-28 16:35:48,Voice Emotion Alert: Detected negative emotion from voice
+2025-04-28 16:36:49,Steps is abnormal: 2500
+2025-04-28 16:36:49,"SVM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 16:36:49,"LOF Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 16:36:49,"GMM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 16:36:49,Text Emotion Alert: I'm tired and dizzy.
+2025-04-28 16:36:49,Voice Emotion Alert: Detected negative emotion from voice
+2025-04-28 16:40:06,Steps is abnormal: 2500
+2025-04-28 16:40:06,"SVM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 16:40:06,"LOF Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 16:40:06,"GMM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 16:40:06,Text Emotion Alert: I'm tired and dizzy.
+2025-04-28 16:40:06,Voice Emotion Alert: Detected negative emotion from voice
+2025-04-28 16:43:53,Steps is abnormal: 2500
+2025-04-28 16:43:53,"SVM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 16:43:53,"LOF Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 16:43:53,"GMM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 16:43:53,Text Emotion Alert: I'm tired and dizzy.
+2025-04-28 16:43:53,Voice Emotion Alert: Detected negative emotion from voice
+2025-04-28 16:45:53,Steps is abnormal: 2500
+2025-04-28 16:45:53,"SVM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 16:45:53,"LOF Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 16:45:53,"GMM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 16:45:53,Text Emotion Alert: I'm tired and dizzy.
+2025-04-28 16:45:53,Voice Emotion Alert: Detected negative emotion from voice
+2025-04-28 16:48:30,Steps is abnormal: 2500
+2025-04-28 16:48:30,"SVM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 16:48:30,"LOF Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 16:48:30,"GMM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 16:48:30,Text Emotion Alert: I'm tired and dizzy.
+2025-04-28 16:48:30,Voice Emotion Alert: Detected negative emotion from voice
+2025-04-28 16:51:11,Steps is abnormal: 2500
+2025-04-28 16:51:11,"SVM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 16:51:11,"LOF Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 16:51:11,"GMM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 16:51:11,Text Emotion Alert: I'm tired and dizzy.
+2025-04-28 16:51:11,Voice Emotion Alert: Detected negative emotion from voice
+2025-04-28 16:53:17,Steps is abnormal: 2500
+2025-04-28 16:53:17,"SVM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 16:53:17,"LOF Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 16:53:17,"GMM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 16:53:17,Text Emotion Alert: I'm tired and dizzy.
+2025-04-28 16:53:17,Voice Emotion Alert: Detected negative emotion from voice
+2025-04-28 16:55:32,Steps is abnormal: 2500
+2025-04-28 16:55:32,"SVM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 16:55:32,"LOF Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 16:55:32,"GMM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 16:55:32,Text Emotion Alert: I'm tired and dizzy.
+2025-04-28 16:55:32,Voice Emotion Alert: Detected negative emotion from voice
+2025-04-28 16:58:49,Steps is abnormal: 2500
+2025-04-28 16:58:49,"SVM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 16:58:49,"LOF Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 16:58:49,"GMM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 16:58:49,Text Emotion Alert: I'm tired and dizzy.
+2025-04-28 16:58:49,Voice Emotion Alert: Detected negative emotion from voice
+2025-04-28 16:59:39,Steps is abnormal: 2500
+2025-04-28 16:59:39,"SVM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 16:59:39,"LOF Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 16:59:39,"GMM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 16:59:39,Text Emotion Alert: I'm tired and dizzy.
+2025-04-28 16:59:39,Voice Emotion Alert: Detected negative emotion from voice
+2025-04-28 23:19:02,Steps is abnormal: 2500
+2025-04-28 23:19:02,"SVM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 23:19:02,"LOF Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 23:19:02,"GMM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 23:19:02,Text Emotion Alert: I'm tired and dizzy.
+2025-04-28 23:19:02,Voice Emotion Alert: Detected negative emotion from voice
+2025-04-28 23:29:21,Steps is abnormal: 2500
+2025-04-28 23:29:21,"SVM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 23:29:21,"LOF Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 23:29:21,"GMM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 23:29:21,Text Emotion Alert: I'm tired and dizzy.
+2025-04-28 23:29:21,Voice Emotion Alert: Detected negative emotion from voice
+2025-04-28 23:32:12,Steps is abnormal: 2500
+2025-04-28 23:32:12,"SVM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 23:32:12,"LOF Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 23:32:12,"GMM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 23:32:12,Text Emotion Alert: I'm tired and dizzy.
+2025-04-28 23:32:12,Voice Emotion Alert: Detected negative emotion from voice
+2025-04-28 23:33:04,Steps is abnormal: 2500
+2025-04-28 23:33:04,"SVM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 23:33:04,"LOF Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 23:33:04,"GMM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 23:33:04,Text Emotion Alert: I'm tired and dizzy.
+2025-04-28 23:33:04,Voice Emotion Alert: Detected negative emotion from voice
+2025-04-28 23:38:16,Steps is abnormal: 2500
+2025-04-28 23:38:16,"SVM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 23:38:16,"LOF Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 23:38:16,"GMM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 23:38:16,Text Emotion Alert: I'm tired and dizzy.
+2025-04-28 23:38:16,Voice Emotion Alert: Detected negative emotion from voice
+2025-04-28 23:41:56,Steps is abnormal: 2500
+2025-04-28 23:41:56,"SVM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 23:41:56,"LOF Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 23:41:56,"GMM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 23:41:56,Text Emotion Alert: I'm tired and dizzy.
+2025-04-28 23:41:56,Voice Emotion Alert: Detected negative emotion from voice
+2025-04-28 23:44:23,Steps is abnormal: 2500
+2025-04-28 23:44:23,"SVM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 23:44:23,"LOF Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 23:44:23,"GMM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 23:44:23,Text Emotion Alert: I'm tired and dizzy.
+2025-04-28 23:44:23,Voice Emotion Alert: Detected negative emotion from voice
+2025-04-28 23:46:42,Steps is abnormal: 2500
+2025-04-28 23:46:42,"SVM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 23:46:42,"LOF Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 23:46:42,"GMM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 23:46:42,Text Emotion Alert: I'm tired and dizzy.
+2025-04-28 23:46:42,Voice Emotion Alert: Detected negative emotion from voice
+2025-04-28 23:51:01,Steps is abnormal: 2500
+2025-04-28 23:51:01,"SVM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 23:51:01,"LOF Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 23:51:01,"GMM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 23:51:01,Text Emotion Alert: I'm tired and dizzy.
+2025-04-28 23:51:01,Voice Emotion Alert: Detected negative emotion from voice
+2025-04-28 23:53:22,Steps is abnormal: 2500
+2025-04-28 23:53:22,"SVM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 23:53:22,"LOF Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 23:53:22,"GMM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-28 23:53:22,Text Emotion Alert: I'm tired and dizzy.
+2025-04-28 23:53:22,Voice Emotion Alert: Detected negative emotion from voice
+2025-04-29 00:54:56,Steps is abnormal: 2500
+2025-04-29 00:54:56,"SVM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-29 00:54:56,"LOF Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-29 00:54:56,"GMM Anomaly Alert: {'Heart Rate': 92, 'Steps': 2500}"
+2025-04-29 00:54:56,Text Emotion Alert: I'm tired and dizzy.
+2025-04-29 00:54:56,Voice Emotion Alert: Detected negative emotion from voice
