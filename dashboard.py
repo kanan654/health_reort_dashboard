@@ -1,140 +1,20 @@
-# import streamlit as st
-# import pandas as pd
 
-# # Import your own project modules
-# from health_risk_prediction import predict_health_risk
-# from health_advisor import generate_health_advice
-# from device_check import check_device_health
-# from generator_report import generate_pdf_report
-# from integrated_alerts import all_alerts
-
-# # Streamlit page config and heading
-# st.set_page_config(page_title="AI Health Monitoring Dashboard", layout="wide")
-# st.title("AI-Powered Health Monitoring System")
-# st.markdown("""
-# This dashboard integrates health risk prediction, emotion detection, wearable status check, 
-# and generates personalized health advice with downloadable health reports.
-# """)
-
-# # Load data function
-# @st.cache_data
-# def load_data():
-#     try:
-#         return pd.read_csv("combined_health_data.csv")
-#     except FileNotFoundError:
-#         st.error("combined_health_data.csv not found.")
-#         return pd.DataFrame()
-
-# # Load the data
-# health_data = load_data()
-
-# # Display data preview
-# if not health_data.empty:
-#     st.subheader("Loaded Health Data")
-#     st.dataframe(health_data.head())
-
-# # Predict Health Risk
-# if st.button("Predict Health Risk"):
-#     heart_rate = int(health_data['Heart Rate'].iloc[0])
-#     steps = int(health_data['Steps'].iloc[0])
-    
-#     sleep_quality_raw = health_data['Sleep Quality'].iloc[0]
-#     if isinstance(sleep_quality_raw, str):
-#         if sleep_quality_raw.lower() == "best":
-#             sleep_quality = 5
-#         elif sleep_quality_raw.lower() == "good":
-#             sleep_quality = 4
-#         elif sleep_quality_raw.lower() == "average":
-#             sleep_quality = 3
-#         elif sleep_quality_raw.lower() == "poor":
-#             sleep_quality = 2
-#         elif sleep_quality_raw.lower() == "worst":
-#             sleep_quality = 1
-#         else:
-#             sleep_quality = 3  # default
-#     else:
-#         sleep_quality = int(sleep_quality_raw)
-
-#     prediction = predict_health_risk(heart_rate, steps, sleep_quality)
-#     st.success(f"Health Risk Prediction: {prediction}")
-
-# # Provide Health Advice
-# if st.button("Get Personalized Health Advice"):
-#     advice_list = []
-#     for _, row in health_data.iterrows():
-#         generate_health_advice(row)
-#         advice_list.append(row)
-#         sleep_quality_raw = row['Sleep Quality']
-#         sleep_quality_raw = health_data['Sleep Quality']
-# def generate_health_advice(row):
-#     heart_rate = row['Heart Rate']
-#     steps = row['Steps']
-#     sleep_quality_raw = row['Sleep Quality']
-# if isinstance(sleep_quality_raw, str):
-#     if sleep_quality_raw.lower() == "best":
-#         sleep_quality = 5
-#     elif sleep_quality_raw.lower() == "good":
-#         sleep_quality = 4
-#     elif sleep_quality_raw.lower() == "average":
-#         sleep_quality = 3
-#     elif sleep_quality_raw.lower() == "poor":
-#         sleep_quality = 2
-#     elif sleep_quality_raw.lower() == "worst":
-#          sleep_quality = 1
-#     else:
-#          sleep_quality = 3  # default
-# def generate_advice(steps,sleep_quality):
-#      advice = ""
-#      if heart_rate > 100:
-#          advice += "Reduce stress and caffeine intake ."
-#      if steps < 5000:
-#              advice += " Increase daily activity."
-#      if sleep_quality < 3:
-#                  advice+= "Improve sleep habits."
-#      return advice 
-# if len(advice_list) == len(health_data):
-#     health_data['Personalized Advice'] = advice_list
-# # else:
-# #     st.error("Mismatch between health data and advice list. Cannot proceed.")
-#     st.success("Health advice generated.")
-#     st.dataframe(health_data)
-# else:
-#     st.error("Mismatch between health data and advice list. Cannot proceed")
-# # Device Status Check
-# if st.button("Check Wearable Device Status"):
-#     status = check_device_health()
-#     if status:
-#         st.success("Wearable device is working fine.")
-#     else:
-#         st.error("Wearable device error detected!")
-
-# # Generate Alerts
-# if st.button("Generate Alerts"):
-#     alerts = all_alerts(health_data)
-#     health_data['Alerts'] = alerts
-#     st.warning("Alerts generated.")
-#     st.dataframe(health_data)
-
-# # Generate PDF Report
-# if st.button("Generate PDF Report"):
-#     if not health_data.empty:
-#         generate_pdf_report(health_data)
-#         st.success("Health Report PDF generated as 'Health_Report.pdf'")
-#     else:
-#         st.error("No data available to generate report.")
 import streamlit as st
 import pandas as pd
-
+import time
+# Streamlit page config and heading
+st.set_page_config(page_title="AI Health Monitoring Dashboard",page_icon ='🏥', layout="wide")
+if st.button('Analyze'):
+    with st.spinner("Analyze health data ...."):
+        time.sleep(2)
+        st.success('Analyze done!')
 # Import your own project modules
 from health_risk_prediction import predict_health_risk
 from health_advisor import generate_health_advice
 from device_check import check_device_health
 from generator_report import generate_pdf_report
 from integrated_alerts import all_alerts
-
-# Streamlit page config and heading
-st.set_page_config(page_title="AI Health Monitoring Dashboard", layout="wide")
-st.title("AI-Powered Health Monitoring System")
+st.title("🏥AI-Powered Health Monitoring System")
 st.markdown("""
 This dashboard integrates health risk prediction, emotion detection, wearable status check, 
 and generates personalized health advice with downloadable health reports.
@@ -190,9 +70,10 @@ def generate_personalized_advice(row):
 if not health_data.empty:
     st.subheader("Loaded Health Data")
     st.dataframe(health_data.head())
-
+col1,col2,col3 = st.columns(3)
 # Predict Health Risk
-if st.button("Predict Health Risk"):
+with col1:
+ if st.button("Predict Health Risk"):
     heart_rate = int(health_data['Heart Rate'].iloc[0])
     steps = int(health_data['Steps'].iloc[0])
     
@@ -214,10 +95,14 @@ if st.button("Predict Health Risk"):
         sleep_quality = int(sleep_quality_raw)
 
     prediction = predict_health_risk(heart_rate, steps, sleep_quality)
+    st.metric(label= "Heart Rate",value = f"{heart_rate}bpm",delta="+2 bpm")
+    st.metric(label="steps",value = f"{steps}steps")
+    st.metric(label="sleep quality", value = sleep_quality)
     st.success(f"Health Risk Prediction: {prediction}")
 
 # Provide Health Advice
-if st.button("Get Personalized Health Advice"):
+with col2:
+ if st.button("Get Personalized Health Advice"):
     advice_list = []
     for _, row in health_data.iterrows():
         advice = generate_personalized_advice(row)
@@ -231,7 +116,8 @@ if st.button("Get Personalized Health Advice"):
         st.error("Mismatch between health data and advice list. Cannot proceed.")
 
 # Device Status Check
-if st.button("Check Wearable Device Status"):
+with col3:
+ if st.button("Check Wearable Device Status"):
     if not health_data.empty:
         row = health_data.iloc[0]   # Take the first row or any row you want
         status = check_device_health(row)
@@ -294,6 +180,19 @@ def predict_health_risk(steps, sleep_quality):
         risk = "High"
     return risk
 if st.button("Generate PDF Report"):
+    steps = health_data["Steps"].iloc[0]
+    sleep_quality = health_data["Sleep Quality"].iloc[0]
+    health_risk =predict_health_risk(steps, sleep_quality)
+    generate_pdf_report(health_data, health_risk)
+    with open("health_report.pdf", "rb") as file:   
+        btn = st.download_button(
+            label="Download Health Report",
+            data=file,
+            file_name="Health_Report.pdf",
+            mime="application/pdf",
+            key = "download_health_report"
+        )
+
     if not health_data.empty:
         # Clean column names
         health_data.columns = health_data.columns.str.strip().str.lower()
