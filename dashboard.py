@@ -3,83 +3,80 @@ import pandas as pd
 import numpy as np
 import time
 import random
+import plotly.express as px  # Advanced charts ke liye
 from datetime import datetime
 
-# Page Configuration
-st.set_page_config(page_title="AI Health Dashboard", layout="wide")
+# Page Config
+st.set_page_config(page_title="Pro AI Health Monitor", layout="wide")
 
-# Custom CSS for Professional Look
-st.markdown("""
-    <style>
-    .main { background-color: #f5f7f9; }
-    .stMetric { background-color: #ffffff; padding: 15px; border-radius: 10px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
-    </style>
-    """, unsafe_allow_html=True)
-
-st.title("🚀 AI-Powered Health Monitoring System")
-st.write("Real-time automated health tracking & diagnostic engine.")
-
-# --- AUTOMATION LOGIC: Wearable Device Auto-Detection ---
+# Sidebar for Device Status
 with st.sidebar:
-    st.header("Connection Status")
-    # Yahan humne manual select hata kar auto-detect simulate kiya hai
-    with st.spinner("Searching for devices..."):
-        time.sleep(1) # Fake loading time
-    
-    st.success("✅ SmartWatch v2.0 Connected")
-    st.info(f"Last Sync: {datetime.now().strftime('%H:%M:%S')}")
-    
+    st.header("🛰️ Hardware Sync")
+    st.success("Connected: Kanan's SmartWatch")
+    st.write(f"Battery: {random.randint(60, 95)}%")
     st.divider()
-    st.button("Force Re-sync")
+    st.markdown("### AI Engine Status: **Active**")
 
-# --- DATA SIMULATION (Manual Inputs Removed) ---
-# Ab user ko set nahi karna padega, code khud random logic se data uthayega
-heart_rate = random.randint(70, 95)
-systolic_bp = random.randint(110, 135)
-diastolic_bp = random.randint(70, 85)
-sleep_hours = round(random.uniform(5.5, 8.5), 1)
-spo2 = random.randint(95, 99)
+st.title("🛡️ Advanced AI Health Guardian")
 
-# --- DASHBOARD LAYOUT ---
-col1, col2, col3, col4 = st.columns(4)
+# --- DATA GENERATION (Simulating Real-time sensors) ---
+hr = random.randint(68, 92)
+sys = random.randint(115, 140)
+dia = random.randint(75, 90)
+spo2 = random.randint(94, 99)
+stress_level = random.randint(20, 80)
 
-with col1:
-    st.metric(label="❤️ Heart Rate", value=f"{heart_rate} bpm", delta="Normal")
+# --- ADVANCED LOGIC: HEALTH SCORE CALCULATION ---
+def calculate_health_score(h, s, o2):
+    score = 100
+    if h > 90 or h < 60: score -= 15
+    if s > 130: score -= 20
+    if o2 < 95: score -= 25
+    return max(score, 10)
 
-with col2:
-    st.metric(label="🩸 Blood Pressure", value=f"{systolic_bp}/{diastolic_bp}", delta="-2 mmHg")
+health_score = calculate_health_score(hr, sys, spo2)
 
-with col3:
-    st.metric(label="😴 Sleep", value=f"{sleep_hours} hrs", delta="Good")
+# --- TOP ROW: METRICS ---
+c1, c2, c3, c4 = st.columns(4)
+c1.metric("Heart Rate", f"{hr} BPM", "Normal" if hr < 90 else "High")
+c2.metric("Blood Pressure", f"{sys}/{dia}", "-5% vs yesterday")
+c3.metric("SpO2 Level", f"{spo2}%", "Stable")
+c4.metric("Overall Health Score", f"{health_score}/100")
 
-with col4:
-    st.metric(label="🌬️ SpO2", value=f"{spo2}%", delta="Stable")
+st.divider()
 
-# --- AI DIAGNOSTIC ENGINE (Logic) ---
-st.subheader("🤖 AI Health Insights")
+# --- MIDDLE ROW: ANALYTICS & PREDICTION ---
+col_left, col_right = st.columns([2, 1])
 
-def generate_ai_report(hr, s_bp, slp):
-    tips = []
-    if hr > 90:
-        tips.append("⚠️ Your Heart Rate is slightly high. Try deep breathing exercises.")
-    if s_bp > 130:
-        tips.append("⚠️ Elevated BP detected. Reduce salt intake and stay hydrated.")
-    if slp < 6:
-        tips.append("⚠️ Sleep deprivation noticed. Aim for at least 7 hours tonight.")
-    
-    if not tips:
-        return "✅ Everything looks perfect! You are in great health today."
-    return "\n".join(tips)
+with col_left:
+    st.subheader("📈 Real-time Vital Trends")
+    # Generating 24 hours of dummy data
+    chart_data = pd.DataFrame({
+        'Hour': list(range(24)),
+        'Heart Rate': np.random.randint(65, 95, 24),
+        'Stress': np.random.randint(10, 70, 24)
+    })
+    fig = px.line(chart_data, x='Hour', y=['Heart Rate', 'Stress'], 
+                  template="plotly_white", markers=True)
+    st.plotly_chart(fig, use_container_width=True)
 
-report = generate_ai_report(heart_rate, systolic_bp, sleep_hours)
-st.info(report)
+with col_right:
+    st.subheader("🔮 Predictive Insights")
+    if sys > 135:
+        st.error("🚨 **High Risk Detected:** Potential Hypertension. Recommendation: Lower sodium intake and consult a specialist.")
+    elif health_score < 80:
+        st.warning("⚠️ **Fatigue Warning:** Your stress levels are rising. Take a 15-minute break.")
+    else:
+        st.success("✅ **Optimal State:** Your vitals are consistent with athletic recovery patterns.")
 
-# --- CHART (Real-time Simulation) ---
-st.subheader("Activity Trend (Last 24 Hours)")
-chart_data = pd.DataFrame(
-    np.random.randn(20, 3),
-    columns=['Heart Rate', 'Activity', 'Stress']
-)
-st.line_chart(chart_data)
+# --- BOTTOM SECTION: WEARABLE DATA LOG ---
+with st.expander("📄 View Full Diagnostic Data Logs"):
+    log_data = pd.DataFrame({
+        'Timestamp': [datetime.now().strftime("%H:%M:%S") for _ in range(5)],
+        'Event': ['Syncing...', 'Anomaly Check', 'Calibrating SpO2', 'Data Upload', 'Report Ready'],
+        'Status': ['Done', 'Cleared', 'Done', 'Success', 'Live']
+    })
+    st.table(log_data)
 
-st.success("Report generated successfully and ready for download.")
+st.markdown("---")
+st.caption("Powered by Gemini AI & Real-time Wearable Integration Simulation")
